@@ -13,80 +13,69 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/icon"
             android:layout_marginLeft="120dp"
-            />
+            android:src="@drawable/icon" />
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is the square root of 4:"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:text="What is the root of 64:"
             android:textColor="@color/colorMarrom"
-            android:textSize="31sp"
-            >
+            android:textSize="37sp">
 
         </TextView>
 
-        <TextView
+
+        <Button
+            android:id="@+id/btnRespostaErrada10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="50dp"
-            android:text=""
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textColor="@color/colorBranca"
-            android:textSize="30sp">
-
-        </TextView>
-
-        <Button
-            android:id="@+id/btnRespostaErrada4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/colorLEscuro"
-            android:text="A) 9"
-            >
+            android:text="A) 7">
 
         </Button>
 
 
         <Button
-            android:id="@+id/btnRespostaErrada5"
+            android:id="@+id/btnRespostaCerta4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
             android:background="@color/colorLEscuro"
-            android:text="B) 25">
+            android:text="B) 8">
 
         </Button>
 
         <Button
-            android:id="@+id/btnRespostaCerta2"
+            android:id="@+id/btnRespostaErrada11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/colorLEscuro"
-            android:text="C) 16">
+            android:text="C) 9">
 
         </Button>
 
         <Button
-            android:id="@+id/btnRespostaErrada6"
+            android:id="@+id/btnRespostaErrada12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
             android:background="@color/colorLEscuro"
-            android:text="D) 36">
+            android:text="D) 10">
+
 
         </Button>
 

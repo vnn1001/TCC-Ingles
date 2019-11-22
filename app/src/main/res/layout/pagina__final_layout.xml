@@ -5,14 +5,12 @@
     android:layout_height="match_parent"
     android:background="@color/colorLaranja"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        />
+        android:orientation="horizontal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,13 +25,26 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="440dp"
-            android:layout_weight="1"
-            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations on completing this part!!!\nGo back to the beginning to study more."
+            android:textColor="@color/colorMarrom"
+            android:textSize="50sp">
 
+        </TextView>
 
+        <Button
+            android:id="@+id/btnPagina_final"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorLEscuro"
+            android:text="Início"
+            android:textSize="25sp">
+
+        </Button>
     </LinearLayout>
 
     <LinearLayout
@@ -41,13 +52,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:textSize="18sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="120dp"
-            android:text="Todos Os Direitos Reservados A Equipe math.EUS©"
-            android:textColor="@color/colorBranca" />
     </LinearLayout>
 
 </LinearLayout>

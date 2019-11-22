@@ -11,21 +11,19 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:src="@drawable/icon"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="120dp"
             />
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Primeira Questão:"
             android:layout_marginLeft="23dp"
             android:layout_marginRight="23dp"
+            android:text="How much is 1 + 1:"
             android:textColor="@color/colorMarrom"
             android:textSize="40sp">
 
@@ -36,12 +34,12 @@
             android:id="@+id/btnRespostaCerta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="20dp"
-            android:textColor="@color/colorMarrom"
             android:background="@color/colorLEscuro"
-            android:text="A) Cn(H2O)n">
+            android:text="A) 2"
+            android:textColor="@color/colorMarrom">
 
         </Button>
 
@@ -50,11 +48,11 @@
             android:id="@+id/QErrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/colorLEscuro"
-            android:text="B) CO5">
+            android:text="B) 1">
 
         </Button>
 
@@ -62,11 +60,11 @@
             android:id="@+id/btnRespostaErrada2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/colorLEscuro"
-            android:text="C) CCl2">
+            android:text="C) 3">
 
         </Button>
 
@@ -74,11 +72,11 @@
             android:id="@+id/btnRespostaErrada3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/colorLEscuro"
-            android:text="D) CArn">
+            android:text="D) 4">
 
         </Button>
 

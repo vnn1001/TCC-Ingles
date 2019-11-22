@@ -9,8 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Segunda_Questao_Activity"></activity>
-        <activity android:name=".Primeira_Questao_Activity" />
+        <activity
+            android:name=".Pagina_Final_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Sexta_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Quinta_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Quarta_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Terceira_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Segunda_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
+        <activity
+            android:name=".Primeira_Questao_Activity"
+            android:theme="@style/TemasemBarra" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/TemasemBarra">
